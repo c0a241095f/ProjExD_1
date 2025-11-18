@@ -19,6 +19,9 @@ def main():
         pg.display.update()
         tmr += 1        
         clock.tick(10)
+        
+    kk_img = pg.image.load("fig/3.png")
+    kk_img=pg.transform.flip(kk_img,True,False)
 
 
 if __name__ == "__main__":
